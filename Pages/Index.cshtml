@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="tooltip">
+    <div id="box">
+        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+        <p id='p'></p>
+    </div>
+</div>
+<h2>Border-Radius</h2>
+<div class="form">
+    <div>
+        <label for="TopLeft">Top-left</label>
+        <input type="text" id="TopLeft" value="20px">
+    </div>
+    <div>
+        <label for="TopRight">Top-right</label>
+        <input type="text" id="TopRight" value="20px">
+    </div>
+    <div>
+        <label for="BottomRight">Bottom-right</label>
+        <input type="text" id="BottomRight" value="20px">
+    </div>
+    <div>
+        <label for="BottomLeft">Bottom-left</label>
+        <input type="text" id="BottomLeft" value="20px">
+    </div>
+</div>
